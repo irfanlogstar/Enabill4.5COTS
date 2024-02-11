@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-11T20:35:29 IST" name="Default suite" finished-at="2024-02-11T20:35:49 IST" duration-ms="19815">
+    <groups>
+    </groups>
+    <test started-at="2024-02-11T20:35:29 IST" name="Default test" finished-at="2024-02-11T20:35:49 IST" duration-ms="19815">
+      <class name="Com.Enabill.Tests.EnabillloginTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@145f66e3]" started-at="2024-02-11T20:35:23 IST" name="init" finished-at="2024-02-11T20:35:29 IST" duration-ms="5726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@145f66e3]" started-at="2024-02-11T20:35:29 IST" name="startDriver" finished-at="2024-02-11T20:35:31 IST" duration-ms="1738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="TestCaes1()[pri:1, instance:Com.Enabill.Tests.EnabillloginTest@145f66e3]" started-at="2024-02-11T20:35:31 IST" name="TestCaes1" finished-at="2024-02-11T20:35:32 IST" duration-ms="1065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaes1 -->
+        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@145f66e3]" started-at="2024-02-11T20:35:32 IST" name="Flushreport" finished-at="2024-02-11T20:35:32 IST" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flushreport -->
+        <test-method signature="TestCaes2()[pri:2, instance:Com.Enabill.Tests.EnabillloginTest@145f66e3]" started-at="2024-02-11T20:35:32 IST" name="TestCaes2" finished-at="2024-02-11T20:35:33 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaes2 -->
+        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@145f66e3]" started-at="2024-02-11T20:35:33 IST" name="Flushreport" finished-at="2024-02-11T20:35:33 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flushreport -->
+        <test-method signature="TestCaes3()[pri:3, instance:Com.Enabill.Tests.EnabillloginTest@145f66e3]" started-at="2024-02-11T20:35:33 IST" name="TestCaes3" finished-at="2024-02-11T20:35:47 IST" duration-ms="14632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaes3 -->
+        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@145f66e3]" started-at="2024-02-11T20:35:47 IST" name="Flushreport" finished-at="2024-02-11T20:35:47 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flushreport -->
+        <test-method signature="TestCaes4()[pri:4, instance:Com.Enabill.Tests.EnabillloginTest@145f66e3]" started-at="2024-02-11T20:35:47 IST" name="TestCaes4" finished-at="2024-02-11T20:35:48 IST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaes4 -->
+        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@145f66e3]" started-at="2024-02-11T20:35:48 IST" name="Flushreport" finished-at="2024-02-11T20:35:48 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flushreport -->
+        <test-method signature="TestCaes5()[pri:5, instance:Com.Enabill.Tests.EnabillloginTest@145f66e3]" started-at="2024-02-11T20:35:48 IST" name="TestCaes5" finished-at="2024-02-11T20:35:48 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaes5 -->
+        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@145f66e3]" started-at="2024-02-11T20:35:48 IST" name="Flushreport" finished-at="2024-02-11T20:35:48 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flushreport -->
+        <test-method signature="TestCaes6()[pri:6, instance:Com.Enabill.Tests.EnabillloginTest@145f66e3]" started-at="2024-02-11T20:35:48 IST" name="TestCaes6" finished-at="2024-02-11T20:35:49 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaes6 -->
+        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@145f66e3]" started-at="2024-02-11T20:35:49 IST" name="Flushreport" finished-at="2024-02-11T20:35:49 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flushreport -->
+        <test-method is-config="true" signature="tierdown()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@145f66e3]" started-at="2024-02-11T20:35:49 IST" name="tierdown" finished-at="2024-02-11T20:35:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierdown -->
+      </class> <!-- Com.Enabill.Tests.EnabillloginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
