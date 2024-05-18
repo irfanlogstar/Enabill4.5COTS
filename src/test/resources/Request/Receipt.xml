@@ -1,0 +1,28 @@
+<ns0:MT_Logstar_Collection_Request xmlns:ns0="http://BALMERLAWRIE_1.com">
+	<Header>
+		<SiteCode>BMLA_CN</SiteCode>----------------------Site Code
+        <SystemRefNo>4645645</SystemRefNo>-----------------unique No SAP Receipt NO
+        <TxnDateTime>20240115||154948</TxnDateTime>-----------Transaction Date time
+	</Header>
+        <ReceiptItem>
+        <CustomerCodePayee>1000076454</CustomerCodePayee>-----SAP Customer code
+            <CustomerCodeOnBehalf>1000076454</CustomerCodeOnBehalf>--SAP Customer code
+            <TypeofReceipt>GEN</TypeofReceipt>-----------GEN/REV/REV
+            <ModeofReceipt>CAS</ModeofReceipt>-----------CAS/CHQ    
+            <SlipNo>1 </SlipNo>
+                <BankName>TEST BANK</BankName>-------------Bank Name
+				<InstrumentDate>20240115</InstrumentDate>
+       			<InstrumentNumber>109734</InstrumentNumber>
+            <Amount>10000.00</Amount>-----------------REC Amount
+            <Remarks>TEST REC</Remarks>>
+            <CRDR>DR</CRDR>
+    </ReceiptItem>
+	<InvoiceItem>
+          <item>
+            <SAP_InvoiceNumber>4000500262</SAP_InvoiceNumber>
+            <VoucherNo>2023CHNEMP00036</VoucherNo>
+            <Amount>256</Amount>
+            <CRDR>DR</CRDR>
+        </item>
+	</InvoiceItem>
+</ns0:MT_Logstar_Collection_Request>

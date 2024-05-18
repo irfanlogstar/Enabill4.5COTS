@@ -3,6 +3,18 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="Com.Enabill.Tests.customertest">
+        <methods>
+          <include name="TestCaes1"/>
+          <include name="TestCases3"/>
+          <include name="startDriver"/>
+          <include name="init"/>
+          <include name="TestCaes2"/>
+          <include name="TestCaes4"/>
+          <include name="Flushreport"/>
+          <include name="tierdown"/>
+        </methods>
+      </class> <!-- Com.Enabill.Tests.customertest -->
       <class name="Com.Enabill.Tests.EnabillloginTest">
         <methods>
           <include name="startDriver"/>
@@ -17,18 +29,6 @@
           <include name="tierdown"/>
         </methods>
       </class> <!-- Com.Enabill.Tests.EnabillloginTest -->
-      <class name="Com.Enabill.Tests.customertest">
-        <methods>
-          <include name="TestCaes1"/>
-          <include name="TestCases3"/>
-          <include name="startDriver"/>
-          <include name="init"/>
-          <include name="TestCaes2"/>
-          <include name="TestCaes4"/>
-          <include name="Flushreport"/>
-          <include name="tierdown"/>
-        </methods>
-      </class> <!-- Com.Enabill.Tests.customertest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

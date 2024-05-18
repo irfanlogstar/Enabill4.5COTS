@@ -42,6 +42,7 @@ public class basetest {
 	 public static CustomerPage CP;
 	 public static Properties prop;
 	 public static Map<String,Map<String,String>> data;
+	 public static Map<String,Map<String,String>> APIdata;
 	 
 	 public static ExtentHtmlReporter htmlReporter;
 	 public static ExtentReports extent;
@@ -56,6 +57,7 @@ public class basetest {
 		 createReport();
 		 startDriver();
 		 data = ReadExcelData(System.getProperty("user.dir")+"/src/test/resources/TestData/Data.xlsx" ,"Sheet1");
+		 APIdata = ReadExcelData(System.getProperty("user.dir")+"/src/test/resources/TestData/Data.xlsx" ,"API");
 		
 		 
 	 }
@@ -79,15 +81,14 @@ public class basetest {
 
 			if(prop.getProperty("browserName").equals("chrome"))
 			{
-	        System.setProperty("webdriver.chrome.driver", "D:\\OneDrive - Logstar ERP India Pvt Ltd\\All Projects Logstar\\Selenium Data\\Automation Testing\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+	        System.setProperty("webdriver.chrome.driver", "D:\\OneDrive - Logstar ERP India Pvt Ltd\\All Projects Logstar\\Selenium Data\\Automation Testing\\chromedriver-win64\\chromedriver-win64-1\\chromedriver.exe");
 	    	ChromeOptions option = new ChromeOptions();
-	    	
 	        //option.setBinary("D:\\All Projects Logstar\\Selenium Data\\Maven\\Testing driver and browser\\chrome-win64\\chrome-win64\\chrome.exe");
 	        option.addArguments("--remote-allow-origins=*");
 	        driver = new ChromeDriver(option);
 	        driver.manage().window().maximize();
 	        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-	        driver.get("http://172.16.23.54:9009/login");
+	        driver.get("http://172.16.22.188:8001/login");
 	        option.addArguments("--remote-allow-origins=*");
 			} 
 			else if (prop.getProperty("browserName").equals("firefox")) 
@@ -100,9 +101,6 @@ public class basetest {
 			    WebDriverManager.edgedriver().setup();
 			    driver = new EdgeDriver();
 			}
-			
-			
-	       
 	        
 	    }
 	     

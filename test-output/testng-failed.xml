@@ -6,6 +6,7 @@
       <class name="Com.Enabill.Tests.EnabillloginTest">
         <methods>
           <include name="startDriver"/>
+          <include name="TestCaes7"/>
           <include name="init"/>
           <include name="TestCaes6"/>
           <include name="TestCaes3"/>

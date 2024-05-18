@@ -26,12 +26,20 @@ public class EnabillloginTest extends basetest {
 	    LP.loginb();
 	   
 	}
-	 
+
 	 @Test(priority = 3)
-		public void TestCaes3() {
-			logger = extent.createTest("TestCaes3");
+	public void TestCaes3() {
+		logger = extent.createTest("TestCaes3");
+	    LP = new LoginPage(driver, logger);
+	    LP.loginb();
+	   
+	}
+	 
+	 @Test(invocationCount = 3,priority = 7)
+		public void TestCaes7() {
+			logger = extent.createTest("TestCaes7");
 		    LP = new LoginPage(driver, logger);
-		    LP.Logout();
+		    LP.Searchbar("Channel");
 		   
 		}
 	 
@@ -58,6 +66,7 @@ public class EnabillloginTest extends basetest {
 		    LP.invaliduser();
 		   
 		}
+	
 	 
 	 
 

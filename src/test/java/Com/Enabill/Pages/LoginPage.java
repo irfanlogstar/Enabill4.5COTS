@@ -45,6 +45,9 @@ public class LoginPage {
     @FindBy(xpath = "//div[@role='alert']")
     WebElement  Invaliduser ;
     
+    @FindBy(id="Search")
+    WebElement Searchbar;
+    
 
     public void Login(String Username, String password) {
         userid(Username);
@@ -52,8 +55,12 @@ public class LoginPage {
     }
 
     public void loginb() {
-        loginbutton();    
-        
+        loginbutton(); 
+           
+    }
+    
+    public void Serach(String Search) {
+        Searchbar(Search);    
     }
     
     public void Logout() {     
@@ -80,6 +87,12 @@ public class LoginPage {
         cm.ClickElement(loginbu, "Login button has been clicked");
     }
     
+      public void Searchbar(String val) { 
+
+        cm.ClickElement(Searchbar, "Login button has been clicked");
+        cm.EnterValue(Searchbar, val, "Text " + val + " has been entered into password field");
+    }
+    
        public void Profile1() { 
        cm.ClickElementToBeClickable(Profile, "Profile  button has been clicked");
         }
@@ -91,9 +104,7 @@ public class LoginPage {
          cm.ClickElementToBeClickable(Profile, "Profile");
     }
    
-  /*  public void Profile1() { 
-       cm.ClickElementToBeClickable(Profile, "Profile in button has been clicked");
-    }*/
+
      public void logout() { 
     	    if (cm.ClickElementToBeClickable(logout, "logout Button has been clicked")) {
     	        System.out.println("Pass");
