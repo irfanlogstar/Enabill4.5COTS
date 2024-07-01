@@ -11,29 +11,32 @@ public class customertest extends basetest {
     public void TestCaes1() {
         String TCname = "TestCaes1";
         logger = extent.createTest(TCname);
+        LP = new LoginPage(driver,logger);
         CP = new CustomerPage(driver, logger);
-        CP.Login1(data.get(TCname).get("UserName"), data.get(TCname).get("Password"));
+        LP.Login(data.get(TCname).get("UserName"), data.get(TCname).get("Password"));
+        LP.loginb();
+       // CP.logout();
     }
-
+    
     @Test(priority = 2)
-    public void TestCaes2() {
-        logger = extent.createTest("TestCaes2");
-        CP = new CustomerPage(driver, logger);
-        CP.Login2();
+    public void TestCaes2()
+    {
+    	logger = extent.createTest("TestCaes2");
+    	CP = new CustomerPage(driver, logger);
+	    CP.custometnavigation("Customer");
+	    CP.custometnavigation2();
     }
-
+    
     @Test(priority = 3)
-    public void TestCases3() {
-        logger = extent.createTest("TestCases3");
-        CP = new CustomerPage(driver, logger);
-        CP.customernavigate();
-    }
-
-    @Test(priority = 4)
-    public void TestCaes4() {
-        String TCname = "TestCaes4";
+    public void TestCaes3() {
+        String TCname = "CTestCase001";
         logger = extent.createTest(TCname);
         CP = new CustomerPage(driver, logger);
-        CP.customerdata(data.get(TCname).get("Customer code"));
+        CP.EnterCustomerCode(CustData.get(TCname).get("Customercode"),CustData.get(TCname).get("Name"),CustData.get(TCname).get("LongName"));
+        //CP.logout();
     }
+    
+    
+    
+    
 }

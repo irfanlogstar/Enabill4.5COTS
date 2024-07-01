@@ -43,6 +43,7 @@ public class basetest {
 	 public static Properties prop;
 	 public static Map<String,Map<String,String>> data;
 	 public static Map<String,Map<String,String>> APIdata;
+	 public static Map<String,Map<String,String>> CustData;
 	 
 	 public static ExtentHtmlReporter htmlReporter;
 	 public static ExtentReports extent;
@@ -58,6 +59,7 @@ public class basetest {
 		 startDriver();
 		 data = ReadExcelData(System.getProperty("user.dir")+"/src/test/resources/TestData/Data.xlsx" ,"Sheet1");
 		 APIdata = ReadExcelData(System.getProperty("user.dir")+"/src/test/resources/TestData/Data.xlsx" ,"API");
+		 CustData = ReadExcelData(System.getProperty("user.dir")+"/src/test/resources/TestData/Data.xlsx" ,"Customer");
 		
 		 
 	 }
@@ -65,7 +67,7 @@ public class basetest {
 	 @AfterSuite
 	 public void tierdown()
 	 {
-		//driver.quit();
+		driver.quit();
 	 }
 	 
 	 @AfterMethod
@@ -88,7 +90,7 @@ public class basetest {
 	        driver = new ChromeDriver(option);
 	        driver.manage().window().maximize();
 	        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-	        driver.get("http://172.16.22.188:8001/login");
+	        driver.get("http://172.16.23.54:9009/login");
 	        option.addArguments("--remote-allow-origins=*");
 			} 
 			else if (prop.getProperty("browserName").equals("firefox")) 

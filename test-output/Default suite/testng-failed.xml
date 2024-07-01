@@ -3,21 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Com.Enabill.Tests.EnabillloginTest">
+      <class name="Com.Enabill.Tests.getAPITest">
         <methods>
           <include name="startDriver"/>
-          <include name="TestCaes7"/>
+          <include name="TC04_API_CreateUserWithFileXML"/>
           <include name="init"/>
-          <include name="TestCaes6"/>
-          <include name="TestCaes3"/>
-          <include name="TestCaes5"/>
-          <include name="TestCaes2"/>
-          <include name="TestCaes4"/>
           <include name="Flushreport"/>
-          <include name="TestCaes1"/>
           <include name="tierdown"/>
         </methods>
-      </class> <!-- Com.Enabill.Tests.EnabillloginTest -->
+      </class> <!-- Com.Enabill.Tests.getAPITest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

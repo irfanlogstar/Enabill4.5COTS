@@ -45,9 +45,6 @@ public class LoginPage {
     @FindBy(xpath = "//div[@role='alert']")
     WebElement  Invaliduser ;
     
-    @FindBy(id="Search")
-    WebElement Searchbar;
-    
 
     public void Login(String Username, String password) {
         userid(Username);
@@ -57,10 +54,6 @@ public class LoginPage {
     public void loginb() {
         loginbutton(); 
            
-    }
-    
-    public void Serach(String Search) {
-        Searchbar(Search);    
     }
     
     public void Logout() {     
@@ -85,12 +78,6 @@ public class LoginPage {
     public void loginbutton() { 
 
         cm.ClickElement(loginbu, "Login button has been clicked");
-    }
-    
-      public void Searchbar(String val) { 
-
-        cm.ClickElement(Searchbar, "Login button has been clicked");
-        cm.EnterValue(Searchbar, val, "Text " + val + " has been entered into password field");
     }
     
        public void Profile1() { 

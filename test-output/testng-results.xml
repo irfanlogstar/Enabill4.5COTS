@@ -1,97 +1,546 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="4" total="20" passed="11" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-18T17:57:37 IST" name="Default suite" finished-at="2024-05-18T17:57:48 IST" duration-ms="10976">
+  <suite started-at="2024-06-30T23:13:34 IST" name="Suite" finished-at="2024-06-30T23:16:10 IST" duration-ms="155881">
     <groups>
     </groups>
-    <test started-at="2024-05-18T17:57:37 IST" name="Default test" finished-at="2024-05-18T17:57:48 IST" duration-ms="10976">
-      <class name="Com.Enabill.Tests.EnabillloginTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:32 IST" name="init" finished-at="2024-05-18T17:57:37 IST" duration-ms="5856" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method is-config="true" signature="startDriver()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:37 IST" name="startDriver" finished-at="2024-05-18T17:57:41 IST" duration-ms="3708" status="PASS">
+    <test started-at="2024-06-30T23:13:34 IST" name="Test" finished-at="2024-06-30T23:16:10 IST" duration-ms="155881">
+      <class name="Com.Enabill.Tests.customertest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:Com.Enabill.Tests.customertest@776aec5c]" started-at="2024-06-30T23:13:42 IST" name="startDriver" finished-at="2024-06-30T23:13:45 IST" duration-ms="3247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="TestCaes1()[pri:1, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:41 IST" name="TestCaes1" finished-at="2024-05-18T17:57:42 IST" duration-ms="871" status="PASS">
+        <test-method signature="TestCaes1()[pri:1, instance:Com.Enabill.Tests.customertest@776aec5c]" started-at="2024-06-30T23:13:45 IST" name="TestCaes1" finished-at="2024-06-30T23:13:48 IST" duration-ms="2404" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaes1 -->
-        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:42 IST" name="Flushreport" finished-at="2024-05-18T17:57:42 IST" duration-ms="401" status="PASS">
+        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.customertest@776aec5c]" started-at="2024-06-30T23:13:48 IST" name="Flushreport" finished-at="2024-06-30T23:13:48 IST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Flushreport -->
-        <test-method signature="TestCaes2()[pri:2, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:42 IST" name="TestCaes2" finished-at="2024-05-18T17:57:43 IST" duration-ms="380" status="PASS">
+        <test-method signature="TestCaes2()[pri:2, instance:Com.Enabill.Tests.customertest@776aec5c]" started-at="2024-06-30T23:13:48 IST" name="TestCaes2" finished-at="2024-06-30T23:13:51 IST" duration-ms="3346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaes2 -->
-        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:43 IST" name="Flushreport" finished-at="2024-05-18T17:57:43 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.customertest@776aec5c]" started-at="2024-06-30T23:13:51 IST" name="Flushreport" finished-at="2024-06-30T23:13:51 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Flushreport -->
-        <test-method signature="TestCaes3()[pri:3, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:43 IST" name="TestCaes3" finished-at="2024-05-18T17:57:43 IST" duration-ms="322" status="PASS">
+        <test-method signature="TestCaes3()[pri:3, instance:Com.Enabill.Tests.customertest@776aec5c]" started-at="2024-06-30T23:13:51 IST" name="TestCaes3" finished-at="2024-06-30T23:13:53 IST" duration-ms="1875" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaes3 -->
-        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:43 IST" name="Flushreport" finished-at="2024-05-18T17:57:43 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.customertest@776aec5c]" started-at="2024-06-30T23:13:53 IST" name="Flushreport" finished-at="2024-06-30T23:13:53 IST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Flushreport -->
-        <test-method signature="TestCaes4()[pri:4, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:43 IST" name="TestCaes4" finished-at="2024-05-18T17:57:44 IST" duration-ms="677" status="PASS">
+      </class> <!-- Com.Enabill.Tests.customertest -->
+      <class name="Com.Enabill.Tests.getAPITest">
+        <test-method is-config="true" signature="init()[pri:0, instance:Com.Enabill.Tests.getAPITest@5b7a5baa]" started-at="2024-06-30T23:13:30 IST" name="init" finished-at="2024-06-30T23:13:34 IST" duration-ms="3442" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCaes4 -->
-        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:44 IST" name="Flushreport" finished-at="2024-05-18T17:57:44 IST" duration-ms="24" status="PASS">
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:Com.Enabill.Tests.getAPITest@5b7a5baa]" started-at="2024-06-30T23:13:37 IST" name="startDriver" finished-at="2024-06-30T23:13:39 IST" duration-ms="2157" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Flushreport -->
-        <test-method signature="TestCaes5()[pri:5, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:44 IST" name="TestCaes5" finished-at="2024-05-18T17:57:44 IST" duration-ms="317" status="PASS">
+        </test-method> <!-- startDriver -->
+        <test-method signature="TC01_API_ListUsers()[pri:0, instance:Com.Enabill.Tests.getAPITest@5b7a5baa]" started-at="2024-06-30T23:13:39 IST" name="TC01_API_ListUsers" finished-at="2024-06-30T23:13:40 IST" duration-ms="1280" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCaes5 -->
-        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:44 IST" name="Flushreport" finished-at="2024-05-18T17:57:44 IST" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Flushreport -->
-        <test-method signature="TestCaes6()[pri:6, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:44 IST" name="TestCaes6" finished-at="2024-05-18T17:57:45 IST" duration-ms="801" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaes6 -->
-        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:45 IST" name="Flushreport" finished-at="2024-05-18T17:57:45 IST" duration-ms="15" status="PASS">
+        </test-method> <!-- TC01_API_ListUsers -->
+        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.getAPITest@5b7a5baa]" started-at="2024-06-30T23:13:40 IST" name="Flushreport" finished-at="2024-06-30T23:13:40 IST" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Flushreport -->
-        <test-method signature="TestCaes7()[pri:7, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:45 IST" name="TestCaes7" finished-at="2024-05-18T17:57:47 IST" duration-ms="1601" status="PASS">
+        <test-method signature="TC03_API_CreateUserWithMap()[pri:0, instance:Com.Enabill.Tests.getAPITest@5b7a5baa]" started-at="2024-06-30T23:13:40 IST" name="TC03_API_CreateUserWithMap" finished-at="2024-06-30T23:13:41 IST" duration-ms="1329" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCaes7 -->
-        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:47 IST" name="Flushreport" finished-at="2024-05-18T17:57:47 IST" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Flushreport -->
-        <test-method signature="TestCaes7()[pri:7, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:47 IST" name="TestCaes7" finished-at="2024-05-18T17:57:48 IST" duration-ms="914" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaes7 -->
-        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:48 IST" name="Flushreport" finished-at="2024-05-18T17:57:48 IST" duration-ms="18" status="PASS">
+        </test-method> <!-- TC03_API_CreateUserWithMap -->
+        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.getAPITest@5b7a5baa]" started-at="2024-06-30T23:13:41 IST" name="Flushreport" finished-at="2024-06-30T23:13:41 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Flushreport -->
-        <test-method signature="TestCaes7()[pri:7, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:48 IST" name="TestCaes7" finished-at="2024-05-18T17:57:48 IST" duration-ms="796" status="PASS">
+        <test-method signature="TC04_API_CreateUserWithFile()[pri:0, instance:Com.Enabill.Tests.getAPITest@5b7a5baa]" started-at="2024-06-30T23:13:41 IST" name="TC04_API_CreateUserWithFile" finished-at="2024-06-30T23:13:42 IST" duration-ms="555" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCaes7 -->
-        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:48 IST" name="Flushreport" finished-at="2024-05-18T17:57:48 IST" duration-ms="13" status="PASS">
+        </test-method> <!-- TC04_API_CreateUserWithFile -->
+        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.getAPITest@5b7a5baa]" started-at="2024-06-30T23:13:42 IST" name="Flushreport" finished-at="2024-06-30T23:13:42 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Flushreport -->
-        <test-method is-config="true" signature="tierdown()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@33d512c1]" started-at="2024-05-18T17:57:48 IST" name="tierdown" finished-at="2024-05-18T17:57:48 IST" duration-ms="0" status="PASS">
+        <test-method signature="TC04_API_CreateUserWithFileXML()[pri:0, instance:Com.Enabill.Tests.getAPITest@5b7a5baa]" started-at="2024-06-30T23:13:42 IST" name="TC04_API_CreateUserWithFileXML" finished-at="2024-06-30T23:13:42 IST" duration-ms="169" status="FAIL">
+          <exception class="java.net.UnknownHostException">
+            <message>
+              <![CDATA[No such host is known (blliwebapi.balmerlawrie.co.in)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.UnknownHostException: No such host is known (blliwebapi.balmerlawrie.co.in)
+at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)
+at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211)
+at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828)
+at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139)
+at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+at io.restassured.internal.RestAssuredHttpBuilder.doRequest(RestAssuredHttpBuilder.java:141)
+at io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:349)
+at io.restassured.internal.http.HTTPBuilder$post$3.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1209)
+at io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1369)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:46)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:46)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:72)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:46)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1369)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
+at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1369)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:176)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
+at Com.common.Methods.apicommonmethod.PostCall(apicommonmethod.java:72)
+at Com.Enabill.Tests.getAPITest.TC04_API_CreateUserWithFileXML(getAPITest.java:96)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.UnknownHostException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_API_CreateUserWithFileXML -->
+        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.getAPITest@5b7a5baa]" started-at="2024-06-30T23:13:42 IST" name="Flushreport" finished-at="2024-06-30T23:13:42 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flushreport -->
+        <test-method is-config="true" signature="tierdown()[pri:0, instance:Com.Enabill.Tests.getAPITest@5b7a5baa]" started-at="2024-06-30T23:16:10 IST" name="tierdown" finished-at="2024-06-30T23:16:10 IST" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tierdown -->
+      </class> <!-- Com.Enabill.Tests.getAPITest -->
+      <class name="Com.Enabill.Tests.EnabillloginTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@1d296da]" started-at="2024-06-30T23:13:53 IST" name="startDriver" finished-at="2024-06-30T23:14:00 IST" duration-ms="7308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="EnterUserNameandpassword()[pri:1, instance:Com.Enabill.Tests.EnabillloginTest@1d296da]" started-at="2024-06-30T23:14:00 IST" name="EnterUserNameandpassword" finished-at="2024-06-30T23:14:02 IST" duration-ms="1385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterUserNameandpassword -->
+        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@1d296da]" started-at="2024-06-30T23:14:02 IST" name="Flushreport" finished-at="2024-06-30T23:14:02 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flushreport -->
+        <test-method signature="ClickOnLoginButton()[pri:2, instance:Com.Enabill.Tests.EnabillloginTest@1d296da]" started-at="2024-06-30T23:14:02 IST" name="ClickOnLoginButton" finished-at="2024-06-30T23:14:02 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnLoginButton -->
+        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@1d296da]" started-at="2024-06-30T23:14:02 IST" name="Flushreport" finished-at="2024-06-30T23:14:02 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flushreport -->
+        <test-method signature="LogOut()[pri:3, instance:Com.Enabill.Tests.EnabillloginTest@1d296da]" started-at="2024-06-30T23:14:02 IST" name="LogOut" finished-at="2024-06-30T23:14:39 IST" duration-ms="36262" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LOG-BOM-145', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d1ac16117299a120cf1c7bdbb68f0fc, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\iin001\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61760/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d1ac16117299a120cf1c7bdbb68f0fc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LOG-BOM-145', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d1ac16117299a120cf1c7bdbb68f0fc, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\iin001\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61760/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d1ac16117299a120cf1c7bdbb68f0fc
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:331)
+at Com.common.Methods.commonmethods.getscreenshot(commonmethods.java:141)
+at Com.common.Methods.commonmethods.ClickElementToBeClickable(commonmethods.java:109)
+at Com.Enabill.Pages.LoginPage.logout(LoginPage.java:96)
+at Com.Enabill.Pages.LoginPage.Logout(LoginPage.java:62)
+at Com.Enabill.Tests.EnabillloginTest.LogOut(EnabillloginTest.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@1d296da]" started-at="2024-06-30T23:14:39 IST" name="Flushreport" finished-at="2024-06-30T23:14:39 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flushreport -->
+        <test-method signature="TestCaes3()[pri:3, instance:Com.Enabill.Tests.EnabillloginTest@1d296da]" started-at="2024-06-30T23:14:39 IST" name="TestCaes3" finished-at="2024-06-30T23:15:09 IST" duration-ms="30194" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LOG-BOM-145', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d1ac16117299a120cf1c7bdbb68f0fc, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\iin001\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61760/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d1ac16117299a120cf1c7bdbb68f0fc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LOG-BOM-145', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d1ac16117299a120cf1c7bdbb68f0fc, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\iin001\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61760/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d1ac16117299a120cf1c7bdbb68f0fc
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:331)
+at Com.common.Methods.commonmethods.getscreenshot(commonmethods.java:141)
+at Com.common.Methods.commonmethods.EnterValue(commonmethods.java:49)
+at Com.Enabill.Pages.LoginPage.userid(LoginPage.java:71)
+at Com.Enabill.Pages.LoginPage.Login(LoginPage.java:50)
+at Com.Enabill.Tests.EnabillloginTest.TestCaes3(EnabillloginTest.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaes3 -->
+        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@1d296da]" started-at="2024-06-30T23:15:09 IST" name="Flushreport" finished-at="2024-06-30T23:15:09 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flushreport -->
+        <test-method signature="TestCaes4()[pri:4, instance:Com.Enabill.Tests.EnabillloginTest@1d296da]" started-at="2024-06-30T23:15:09 IST" name="TestCaes4" finished-at="2024-06-30T23:15:39 IST" duration-ms="30436" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LOG-BOM-145', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d1ac16117299a120cf1c7bdbb68f0fc, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\iin001\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61760/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d1ac16117299a120cf1c7bdbb68f0fc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LOG-BOM-145', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d1ac16117299a120cf1c7bdbb68f0fc, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\iin001\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61760/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d1ac16117299a120cf1c7bdbb68f0fc
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:331)
+at Com.common.Methods.commonmethods.getscreenshot(commonmethods.java:141)
+at Com.common.Methods.commonmethods.ClickElement(commonmethods.java:64)
+at Com.Enabill.Pages.LoginPage.loginbutton(LoginPage.java:80)
+at Com.Enabill.Pages.LoginPage.loginb(LoginPage.java:55)
+at Com.Enabill.Tests.EnabillloginTest.TestCaes4(EnabillloginTest.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaes4 -->
+        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@1d296da]" started-at="2024-06-30T23:15:39 IST" name="Flushreport" finished-at="2024-06-30T23:15:39 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flushreport -->
+        <test-method signature="TestCaes5()[pri:5, instance:Com.Enabill.Tests.EnabillloginTest@1d296da]" started-at="2024-06-30T23:15:39 IST" name="TestCaes5" finished-at="2024-06-30T23:16:10 IST" duration-ms="30292" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LOG-BOM-145', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d1ac16117299a120cf1c7bdbb68f0fc, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\iin001\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61760/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d1ac16117299a120cf1c7bdbb68f0fc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LOG-BOM-145', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d1ac16117299a120cf1c7bdbb68f0fc, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\iin001\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61760/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d1ac16117299a120cf1c7bdbb68f0fc
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:331)
+at Com.common.Methods.commonmethods.getscreenshot(commonmethods.java:141)
+at Com.common.Methods.commonmethods.dispaly(commonmethods.java:97)
+at Com.Enabill.Pages.LoginPage.Invalid_User(LoginPage.java:105)
+at Com.Enabill.Pages.LoginPage.invaliduser(LoginPage.java:66)
+at Com.Enabill.Tests.EnabillloginTest.TestCaes5(EnabillloginTest.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaes5 -->
+        <test-method is-config="true" signature="Flushreport()[pri:0, instance:Com.Enabill.Tests.EnabillloginTest@1d296da]" started-at="2024-06-30T23:16:10 IST" name="Flushreport" finished-at="2024-06-30T23:16:10 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flushreport -->
       </class> <!-- Com.Enabill.Tests.EnabillloginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Com.Enabill.Tests.GETAPI">
+        <test-method signature="TC01_ListUsers()[pri:0, instance:Com.Enabill.Tests.GETAPI@145f66e3]" started-at="2024-06-30T23:13:34 IST" name="TC01_ListUsers" finished-at="2024-06-30T23:13:36 IST" duration-ms="1847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_ListUsers -->
+        <test-method signature="assured2()[pri:0, instance:Com.Enabill.Tests.GETAPI@145f66e3]" started-at="2024-06-30T23:13:36 IST" name="assured2" finished-at="2024-06-30T23:13:36 IST" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assured2 -->
+        <test-method signature="assured3()[pri:0, instance:Com.Enabill.Tests.GETAPI@145f66e3]" started-at="2024-06-30T23:13:36 IST" name="assured3" finished-at="2024-06-30T23:13:37 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assured3 -->
+      </class> <!-- Com.Enabill.Tests.GETAPI -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

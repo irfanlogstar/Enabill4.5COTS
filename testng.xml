@@ -3,6 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="Com.Enabill.Tests.GETAPI"/>
+      <class name="Com.Enabill.Tests.getAPITest"/>
       <class name="Com.Enabill.Tests.customertest"/>
       <class name="Com.Enabill.Tests.EnabillloginTest"/>
     </classes>

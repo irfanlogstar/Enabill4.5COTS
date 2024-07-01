@@ -3,14 +3,13 @@ package Com.Enabill.Pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 import com.aventstack.extentreports.ExtentTest;
 
 import Com.common.Methods.commonmethods;
 
 
-public class CustomerPage {
+public class CustomerPage extends HeaderPage {
 
 	    private WebDriver driver;
 	    public commonmethods cm;
@@ -18,86 +17,80 @@ public class CustomerPage {
 
 	    public CustomerPage(WebDriver driver, ExtentTest logger)
 	    {
-	        this.driver = driver;
-	        this.logger = logger;
-	        PageFactory.initElements(driver, this);
-	        cm = new commonmethods(driver, logger);
+	        super(driver, logger);
+	        this.cm = new commonmethods(driver, logger);
+	        
 	    }
 	    
-	    @FindBy(id = "email")
-	    WebElement Userid;
-
-	    @FindBy(id = "password")
-	    WebElement Pass;
-
-	    @FindBy(xpath = "//button[normalize-space()='Login']")
-	    WebElement loginbu;
+	    @FindBy(id = "Search")
+	    WebElement Search;
 	    
-	    @FindBy(xpath = "//p[normalize-space()='Application Settings']")
-	    WebElement applicationSettings;
+	    @FindBy(xpath = "//a[normalize-space()='Customer']")
+	    WebElement SearchCustomer;
 	    
-	    @FindBy(xpath = "//div[@class='container-fluid']//div[1]//div[1]//div[1]")
-	    WebElement customer;
+	    @FindBy(id = "Add")
+	    WebElement CustomerAddButton;
 	    
-	    @FindBy(xpath = "//button[normalize-space()='Add']")
-	    WebElement Addb;
+	    @FindBy(xpath = "//kendo-textbox[@id='Code']//input[@class='k-input-inner']")
+	    WebElement CustomerCode;
 	    
-	    @FindBy(xpath = "//kendo-textbox[@class='backgroundT k-textbox k-input ng-pristine ng-invalid k-input-md k-rounded-md k-input-solid ng-touched']")
-	    WebElement Ccode;
+	    @FindBy(xpath = " //kendo-textbox[@id='Name']//input[@class='k-input-inner']")
+	    WebElement Name;
+	    
+	    @FindBy(xpath = " //kendo-textbox[@id='LongName']//input[@class='k-input-inner']")
+	    WebElement LongName;
+	  
 	    
 	    
-	    public void Login1(String Username, String password) {
-	        userid(Username);
-	        Password(password);
-	    }
 	    
-	    public void Login2() {
-	        loginbutton(); // Corrected the method name here
-	    }
-	    
-	    public void customernavigate()
-        {
-	    	applicationclick();
-	    	customerclickk();
-	    	Addbutton();   
-	    }
-	    
-	    
-	    public void customerdata (String customercode)
+	    public void custometnavigation(String SerachCustomer)
 	    {
-	    	Ccodefield(customercode);
+	    	SearchCustomer(SerachCustomer);
 	    }
-	    public void userid(String val) {
-	        cm.EnterValue(Userid, val, "Text " + val + " has been entered into userid field");
-	    }
-
-	    public void Password(String val) {
-	        cm.EnterValue(Pass, val, "Text " + val + " has been entered into password field");
-	    }
-
-	    public void loginbutton() { // Corrected method name
-	        cm.ClickElement(loginbu, "Login in button has been clicked");
+	    public void custometnavigation2()
+	    {
+	    	SelectCustomer();
 	    }
 	    
-	    public void applicationclick() { // Corrected method name
-	        cm.ClickElement(applicationSettings, " Application Settings in button has been clicked");
-	    }
-	    
-	    public void customerclickk() { // Corrected method name
-	        cm.ClickElement(customer, "Customer in button has been clicked");
-	    }
-	    
-	    public void Addbutton() { // Corrected method name
-	        cm.ClickElement(Addb, "Add button has been clicked");
-	    }
-	    
-	    public void Ccodefield(String val) { // Corrected method name
-	        cm.EnterValue(Ccode, val, "Text " + val + " has been entered into password field");
+	    public void EnterCustomerCode(String CustomerCode , String CustomerName, String CustomerLongName)
+	    {
+	    	EnterCustomercode(CustomerCode);
+	    	EnterCustomerName(CustomerName);
+	    	EnterCustomerLongName(CustomerLongName);
 	    }
 	    
 	    
-	    
-	    
+	  
+	   public void SearchCustomer(String val)
+	   {
+		   cm.EnterValue(Search, val, "Text " + val + " has been entered into Search Bar");
+	   }
+	   
+	   public void SelectCustomer()
+	    {
+	    	cm.ClickElement(SearchCustomer, "User has selected Customer from Search Bar");
+	    	cm.ClickElement(CustomerAddButton, "User has Clicked on Add Button");
+	    }
+	  
+	   public void EnterCustomercode(String val)
+	   {
+		   cm.EnterValue(CustomerCode, val, "Text " + val + " has been entered into Customer Code");
+	   }
+	   
+	   public void EnterCustomerName(String val)
+	   {
+		   cm.EnterValue(Name, val, "Text " + val + " has been entered into Name");
+	   }
+	   
+	   public void EnterCustomerLongName(String val)
+	   {
+		   cm.EnterValue(LongName, val, "Text " + val + " has been entered into Long Name");
+	   }
+	   
+	   
+	   
+	   
+	      
 
 }
 
